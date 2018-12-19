@@ -1805,6 +1805,9 @@ body {
 .cid-rcAtp1C1eU .mbr-text {
   color: #767676;
 }
+.cid-rcAtp1C1eU .mbr-text B {
+  color: #0907c4;
+}
 .cid-rcAtiVrZnH {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -3532,6 +3535,9 @@ body {
   height: 25px;
   border-radius: 50%;
   content: '✓';
+}
+.cid-rcw19PSrR2 .mbr-text UL {
+  color: #232323;
 }
 .cid-rcw5Bp9NUr .navbar {
   padding: .5rem 0;
