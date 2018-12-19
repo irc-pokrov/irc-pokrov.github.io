@@ -3506,8 +3506,17 @@ body {
 .cid-rcvbKquJ8X .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-rcw19PSrR2 {
+.cid-rcI3MBoICv {
   padding-top: 120px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rcI3MBoICv .mbr-text,
+.cid-rcI3MBoICv blockquote {
+  color: #767676;
+}
+.cid-rcw19PSrR2 {
+  padding-top: 30px;
   padding-bottom: 60px;
   background-color: #ffffff;
 }
