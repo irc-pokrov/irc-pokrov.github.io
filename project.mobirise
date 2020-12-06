@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.8",
     "siteFonts": [],
-    "uniqCompNum": 58,
+    "uniqCompNum": 60,
     "versionPublish": "4.10.3",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -12717,13 +12717,88 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>У разі потреби фахівці інклюзивно-ресурсного центру можуть проводити комплексну оцінку за іншими напрямами, зокрема визначення рівня соціальної адаптації, взаємовідносин з однолітками, дорослими.\n</p><p>Результати комплексної оцінки оформлюються в електронному вигляді, зберігаються в інклюзивно-ресурсному центрі та надаються батькам (одному з батьків) або законним представникам дитини за письмовим зверненням.\n</p><p>Інформація про результати комплексної оцінки є конфіденційною. Обробка та захист персональних даних дітей в інклюзивно-ресурсному центрі здійснюється відповідно до вимог <a href=\"http://zakon.rada.gov.ua/laws/show/2297-17\" target=\"_blank\">Закону України “Про захист персональних даних”</a>.\n</p><p>Узагальнення результатів комплексної оцінки здійснюється на засіданні фахівців інклюзивно-ресурсного центру, які її проводили, в якому мають право брати участь батьки (один з батьків) або законні представники дитини з особливими освітніми потребами.\n</p><p>За результатами засідання складається висновок про комплексну оцінку, в якому зазначаються загальні дані про дитину з особливими освітніми потребами, її сім’ю (батьків (одного з батьків) або законних представників, братів, сестер), умови виховання в сім’ї, стан здоров’я дитини, заклад освіти, де навчається дитина, напрями проведення комплексної оцінки, загальні висновки, рекомендації, прізвище, ім’я, по батькові фахівців інклюзивно-ресурсного центру, які проводили оцінку.\n</p><p>Підготовка відповідного висновку проводиться протягом 10 робочих днів.\n</p><p>Висновок про комплексну оцінку надається батькам (одному з батьків) або законним представникам дитини з особливими освітніми потребами, за заявою яких (якого) її проведено, у двох примірниках, один з яких подається батьками (законними представниками) дитини до закладу освіти.\n</p><p>Висновок про комплексну оцінку реєструється у відповідному журналі та зберігається в електронному вигляді в інклюзивно-ресурсному центрі.\n</p><p>У разі встановлення фахівцями інклюзивно-ресурсного центру наявності у дитини особливих освітніх потреб висновок про комплексну оцінку є підставою для складення для неї індивідуальної програми розвитку та надання їй психолого-педагогічних та корекційно-розвиткових послуг.\n</p><p>Звертаємо увагу, що висновок лікарсько-консультативної комісії (ЛКК) закладу охорони здоров’я не може бути підставою для організації інклюзивного навчання для дитини з особливими освітніми потребами. Довідка ЛКК актуальна в тому випадку, якщо дитина потребує індивідуальну форму навчання(педагогічний патронаж).\n</p><p>&nbsp;Також наголошуємо, що діти які в минулому році діагностувалися в ІРЦ та мають висновок про комплексну оцінку, без змін в поставленому діагнозі та без встановленої дати щодо повторного діагностування, повторної комплексної оцінки не потребують.\n</p><p><b><br></b></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>У разі потреби фахівці інклюзивно-ресурсного центру можуть проводити комплексну оцінку за іншими напрямами, зокрема визначення рівня соціальної адаптації, взаємовідносин з однолітками, дорослими.\n</p><p>Результати комплексної оцінки оформлюються в електронному вигляді, зберігаються в інклюзивно-ресурсному центрі та надаються батькам (одному з батьків) або законним представникам дитини за письмовим зверненням.\n</p><p>Інформація про результати комплексної оцінки є конфіденційною. Обробка та захист персональних даних дітей в інклюзивно-ресурсному центрі здійснюється відповідно до вимог <a href=\"http://zakon.rada.gov.ua/laws/show/2297-17\" target=\"_blank\">Закону України “Про захист персональних даних”</a>.\n</p><p>Узагальнення результатів комплексної оцінки здійснюється на засіданні фахівців інклюзивно-ресурсного центру, які її проводили, в якому мають право брати участь батьки (один з батьків) або законні представники дитини з особливими освітніми потребами.\n</p><p>За результатами засідання складається висновок про комплексну оцінку, в якому зазначаються загальні дані про дитину з особливими освітніми потребами, її сім’ю (батьків (одного з батьків) або законних представників, братів, сестер), умови виховання в сім’ї, стан здоров’я дитини, заклад освіти, де навчається дитина, напрями проведення комплексної оцінки, загальні висновки, рекомендації, прізвище, ім’я, по батькові фахівців інклюзивно-ресурсного центру, які проводили оцінку.\n</p><p>Підготовка відповідного висновку проводиться протягом 10 робочих днів.\n</p><p>Висновок про комплексну оцінку надається батькам (одному з батьків) або законним представникам дитини з особливими освітніми потребами, за заявою яких (якого) її проведено, у двох примірниках, один з яких подається батьками (законними представниками) дитини до закладу освіти.\n</p><p>Висновок про комплексну оцінку реєструється у відповідному журналі та зберігається в електронному вигляді в інклюзивно-ресурсному центрі.\n</p><p>У разі встановлення фахівцями інклюзивно-ресурсного центру наявності у дитини особливих освітніх потреб висновок про комплексну оцінку є підставою для складення для неї індивідуальної програми розвитку та надання їй психолого-педагогічних та корекційно-розвиткових послуг.\n</p><p>Звертаємо увагу, що висновок лікарсько-консультативної комісії (ЛКК) закладу охорони здоров’я не може бути підставою для організації інклюзивного навчання для дитини з особливими освітніми потребами. Довідка ЛКК актуальна в тому випадку, якщо дитина потребує індивідуальну форму навчання(педагогічний патронаж).\n</p><p>Також наголошуємо, що діти які в минулому році діагностувалися в ІРЦ та мають висновок про комплексну оцінку, без змін в поставленому діагнозі та без встановленої дати щодо повторного діагностування, повторної комплексної оцінки не потребують.</p><p>\n</p><p><b>Термін дії висновку ІРЦ необмежений у часі, крім випадків, коли рекомендовано та визначено дату повторного вивчення</b>.\n&nbsp;<span style=\"font-size: 1rem;\"><b>Повторна комплексна оцінка проводиться у разі:</b>&nbsp;</span></p><p><b><br></b></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "sipTOx1Hz6",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
           "_anchor": "content1-1l"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ul": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem",
+                  "& when (@stylizedCounters)": {
+                    "list-style": "none",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "0px",
+                      "margin-top": "-10px",
+                      "padding-top": "3px",
+                      "content": "''",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "20px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "25px",
+                      "height": "25px",
+                      "border-radius": "50%",
+                      "& when (@countersType = 'circle')": {
+                        "background": "none",
+                        "border": "1px solid @counterColor",
+                        "color": "@counterColor"
+                      },
+                      "& when (@countersType = 'square')": {
+                        "border-radius": "0"
+                      },
+                      "& when (@mark)": {
+                        "content": "'✓'"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "_name": "content12",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li>переведення дитини з особливими освітніми потребами до інклюзивної (спеціальної) групи закладу дошкільної освіти або інклюзивного (спеціального) класу закладу загальної середньої освіти;\n</li><li>покращення або погіршення стану здоров’я дитини з особливими освітніми потребами, труднощів у засвоєнні навчальної програми.\n</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sipYhK637K",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content12-1m"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Висновок про комплексну оцінку має рекомендаційний характер і не є підставою для скерування органом управління освітою дитини з особливими освітніми потребами до певного закладу освіти, зокрема до спеціальної школи чи навчально-реабілітаційного центру.\n</p><p>Відповідно до статті 55 Закону України «Про освіту» (далі - Закон) право обирати заклад освіти, освітню програму, вид і форму здобуття дітьми освіти відповідного рівня мають батьки дитини. Згідно зі статтею 20 Закону у разі звернення особи з особливими освітніми потребами або її батьків до закладу освіти інклюзивна група або клас утворюється в обов’язковому порядку. \n</p><p><b>До уваги керівників ЗЗСО!\n</b></p><p>Згідно постанови КМУ від 21 жовтня 2020 р. № 983 «Про внесення змін до постанов Кабінету Міністрів України від 23 квітня 2003 р. № 585 і від 12 липня 2017 р. № 545», що визначає механізм подовження тривалості здобуття повної загальної середньої освіти учнями з особливими освітніми потребами, тривалість здобуття повної загальної середньої освіти особами з особливими освітніми потребами, які навчаються в інклюзивних класах, може бути продовжена на один рік на рівні початкової освіти та/або на один рік на рівні базової середньої освіти відповідно до індивідуальної освітньої траєкторії.\n</p><p>Потреба щодо продовження тривалості навчання визначається командою психолого-педагогічного супроводу не пізніше ніж за півроку до завершення навчання, про що зазначається в протоколі засідання, та є підставою звернення до інклюзивно-ресурсного центру для повторної комплексної оцінки розвитку дитини. На підставі висновку про повторну психолого-педагогічну оцінку розвитку дитини, виданого інклюзивно-ресурсним центром, та заяви одного з батьків (іншого законного представника) дитини, рішення про продовження тривалості навчання приймається педагогічною радою та вводиться в дію наказом керівника закладу освіти.             Дякуємо за співпрацю та розуміння!\n</p><p>Дякуємо за співпрацю та розуміння!\n</p><p>\n<span style=\"font-size: 1rem;\">Команда КУ «Покровський ІРЦ».</span></p><p><br></p><p><b><br></b></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sipYOh7Rvh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-1n"
         }
       ]
     }

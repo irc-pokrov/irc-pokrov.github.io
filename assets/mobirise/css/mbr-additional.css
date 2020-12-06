@@ -12335,11 +12335,53 @@ body {
   content: '✓';
 }
 .cid-sipTOx1Hz6 {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 45px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-sipTOx1Hz6 .mbr-text,
 .cid-sipTOx1Hz6 blockquote {
+  color: #767676;
+}
+.cid-sipYhK637K {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-sipYhK637K .counter-container {
+  color: #767676;
+}
+.cid-sipYhK637K .counter-container ul {
+  margin-bottom: 0;
+}
+.cid-sipYhK637K .counter-container ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+.cid-sipYhK637K .counter-container ul li:before {
+  position: absolute;
+  left: 0px;
+  margin-top: -10px;
+  padding-top: 3px;
+  content: '';
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 20px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #149dcc;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  content: '✓';
+}
+.cid-sipYOh7Rvh {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-sipYOh7Rvh .mbr-text,
+.cid-sipYOh7Rvh blockquote {
   color: #767676;
 }
