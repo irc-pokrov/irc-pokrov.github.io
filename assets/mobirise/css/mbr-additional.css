@@ -4037,71 +4037,52 @@ body {
 .cid-rcw5Bp9NUr .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-sipxdmdHXJ {
+.cid-sipMbWE5I5 {
   padding-top: 120px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-sipxdmdHXJ .mbr-text {
+@media (min-width: 992px) {
+  .cid-sipMbWE5I5 .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-sipMbWE5I5 .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-sipMbWE5I5 .mbr-text {
   color: #767676;
 }
-.cid-sipxdmdHXJ .mbr-text p {
+.cid-sipMDCKMby {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-sipMDCKMby .mbr-text {
+  color: #767676;
+}
+.cid-sipMDCKMby .mbr-text p {
   background: #ffffff;
 }
-.cid-sipxdmdHXJ .mbr-text P {
-  text-align: left;
+.cid-sipMXzZW1V {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
 }
-.cid-sipyVye7yJ {
-  padding-top: 30px;
-  padding-bottom: 60px;
-  background: #ffffff;
-}
-.cid-sipyVye7yJ .media-container-row {
-  margin: 0 auto;
-  align-items: stretch;
-  -webkit-align-items: stretch;
-}
-.cid-sipyVye7yJ .media-container-row .img-item {
-  display: -webkit-flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  width: 100%;
-  z-index: 1;
-  -webkit-flex-direction: column;
-  -webkit-justify-content: center;
-}
-.cid-sipyVye7yJ .media-container-row .img-item .img-cont {
-  position: relative;
-  overflow: hidden;
-}
-.cid-sipyVye7yJ .media-container-row .img-item .img-cont img {
-  width: 100%;
-}
-.cid-sipyVye7yJ .media-container-row .img-item .img-cont .img-caption {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  z-index: 2;
-  padding: 1rem 1rem;
-  word-break: break-word;
-}
-.cid-sipyVye7yJ .media-container-row .img-item .img-cont .img-caption p {
-  margin-bottom: 0;
-}
-.cid-sipyVye7yJ .media-container-row .img-item.item1 {
-  padding: 0 2rem 0 0;
-}
-@media (max-width: 992px) {
-  .cid-sipyVye7yJ .img-item {
-    width: 100% !important;
+@media (min-width: 992px) {
+  .cid-sipMXzZW1V .mbr-figure {
+    padding-right: 4rem;
   }
-  .cid-sipyVye7yJ .img-item.item1 {
-    width: 100%;
-    flex-basis: initial !important;
-    padding: 0 0 2rem 0 !important;
-    -webkit-flex-basis: initial !important;
+}
+@media (max-width: 991px) {
+  .cid-sipMXzZW1V .mbr-figure {
+    padding-bottom: 1rem;
   }
+}
+.cid-sipMXzZW1V .mbr-text {
+  color: #767676;
 }
 .cid-rqiQeMbjdA {
   padding-top: 30px;
