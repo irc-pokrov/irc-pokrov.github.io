@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.8",
     "siteFonts": [],
-    "uniqCompNum": 60,
+    "uniqCompNum": 61,
     "versionPublish": "4.10.3",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -493,6 +493,25 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p><span style=\"font-style: normal;\">Увага!\n&nbsp;</span></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">З 11.01.2021р. по 24.01.2021р. комунальна установа «Інклюзивно-ресурсний центр Покровської міської ради Дніпропетровської області» працює у дистанційному режимі.&nbsp;</span></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">За інформацією звертатися за телефонами: 099.438.8303, 098.883.3168&nbsp;</span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "slLCStI2eg",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content2-1o"
         },
         {
           "_styles": {
@@ -3021,11 +3040,11 @@
           "_name": "content14",
           "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content14\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p class=\"p-3\">03.12.2020р. в рамках заходів до Міжнародного Дня людей з інвалідністю на базі КУ «Покровський ІРЦ» були проведені  майстер-класи для дітей з особливими освітніми потребами та їх батьків «Світ без бар’єрів» з використанням технік арт-терапії та Су-Джок терапії.\n</p><p class=\"p-3\"><span style=\"font-size: 1rem;\">Майстер-класи проводились з дотриманням всіх протиепідемічних заходів та мали на меті допомогти дітям  з особливими освітніми потребами впоратися із сором’язливістю, сприяти розвитку мовлення, пам’яті, уваги, посидючості, розширенню кругозору, активізації мовленнєвого спілкування. Крім того, навчити дітей взаємодіяти з однолітками, розвивати самостійність, активність та ініціативність.&nbsp;</span><span style=\"font-size: 1rem;\">В організації майстер-класів взяли активну участь батьки дітей з особливими освітніми потребами, практичні психологи та корекційні педагоги КУ «Покровський ІРЦ».&nbsp;</span></p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p class=\"p-3\">Під час майстер-класів психолог КУ «Покровський ІРЦ» Павленко О.М. ознайомила дітей з нетрадиційними техніками малювання на кефірі та техніками монотипії, а з вчителем-логопедом  Колодченко М.О. діти  із задоволенням «малювали камінцями» (діамантова техніка) та виконували вправи з Су-Джок терапії. Наприкінці заходу на дітей чекав запальний  флешмоб з веселим клоуном  та солодкі подарунки.\n</p><p class=\"p-3\">Фахівці інклюзивно-ресурсного центру дали  можливість дітям з особливими освітніми потребами не лише відпочити, зняти фізичне та психологічне навантаження, а й створили нові умови для збагачення соціального досвіду, отримання ними нових знань і вмінь, урізноманітнили дозвілля дітей, зробили  його веселим, цікавим та змістовним.\n</p><p class=\"p-3\"><br></p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sipPy4kDRw",
+          "_anchor": "content14-19",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content14-19"
+          "_params": {}
         },
         {
           "alias": false,
@@ -3084,11 +3103,11 @@
           "_name": "content15",
           "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"66\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"showCaption\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"showCaption\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <div class=\"img-cont\">\n                        <div class=\"mbr-overlay\" mbr-if=\"showCaption\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n                        <img src=\"@PROJECT_PATH@/assets/images/image01-512x683.jpg\" alt title>\n                        <div class=\"img-caption\" mbr-if=\"showCaption\">\n                            <p class=\"mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-5\"></p>\n                        </div>\n                    </div>\n\n                </div>\n                <div class=\"img-item\">\n                    <div class=\"img-cont\">\n                        <div class=\"mbr-overlay\" mbr-if=\"showCaption\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n                        <img src=\"@PROJECT_PATH@/assets/images/image02-888x1184.jpg\" alt title>\n                        <div class=\"img-caption\" mbr-if=\"showCaption\">\n                            <p class=\"mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-5\"></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
           "_cid": "sipPA5KAcB",
+          "_anchor": "content15-1a",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content15-1a"
+          "_params": {}
         },
         {
           "_styles": {
@@ -3321,11 +3340,11 @@
           "_name": "content14",
           "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings=\"\" class=\"mbr-section article content14\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article=\"\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article=\"\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article=\"\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-if=\"cardsAmount > 2\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sipxaylWS0",
+          "_anchor": "content14-12",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content14-12"
+          "_params": {}
         }
       ]
     },
@@ -12418,11 +12437,11 @@
           "_name": "menu1",
           "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.co\">\n                         <img src=\"@PROJECT_PATH@/assets/images/meta-4-122x69.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">Покровський ІРЦ</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">\n                        <span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>Головна</a></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"documents.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-info mbr-iconfont mbr-iconfont-btn\"></span>Діяльність</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"centre.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Про центр</a><a class=\"text-white dropdown-item\" href=\"tasks.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Завдання, мета</a><a class=\"text-white dropdown-item\" href=\"metodika.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Mетодики</a><a class=\"text-white dropdown-item\" href=\"personеl.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Фахівці</a><a class=\"text-white dropdown-item\" href=\"normpravbaza.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Нормативно-правова база</a><a class=\"text-white dropdown-item\" href=\"partners.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Партнери</a><a class=\"text-white dropdown-item\" href=\"zakupki.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Фінансова прозорість</a></div></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"documents.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>Батькам</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"documents.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Документи</a><a class=\"text-white dropdown-item\" href=\"hours.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Режим роботи</a><a class=\"text-white dropdown-item\" href=\"faqs.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Запитання</a><a class=\"text-white dropdown-item\" href=\"advices.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Рекомендації</a></div></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"documents.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-briefcase mbr-iconfont mbr-iconfont-btn\"></span>Педагогам</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"metodika2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Комплексна оцінка</a><a class=\"text-white dropdown-item\" href=\"advises2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Рекомендації</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"kerivnykam.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\"><span class=\"mbri-briefcase mbr-iconfont mbr-iconfont-btn\"></span>Керівникам</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"page1.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"news.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>Новини</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"job.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Вакансії<br></a><a class=\"text-white dropdown-item\" href=\"news.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Заходи&nbsp;</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"contacts.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>Контакти</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_cid": "rcvbKquJ8X",
+          "_anchor": "menu1-1b",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-1b"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12437,11 +12456,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Комунальна установа «Інклюзивно-ресурсний центр Покровської міської ради Дніпропетровської області» доводить до відома, що з метою організації умов для навчання дітей з особливими освітніми потребами в закладах дошкільної освіти та загальної середньої освіти,  батьки або законні представники  мають право звернутися до інклюзивно-ресурсного центру для проведення комплексної психолого-педагогічної оцінки розвитку дитини та отримання відповідного висновку.</p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "sipQF7rCMP",
+          "_anchor": "content1-1c",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-1c"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12456,11 +12475,11 @@
           "_name": "content2",
           "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote>Комплексна оцінка проводитися за ініціативою батьків дитини або  рекомендацією педагогічних працівників закладу освіти на підставі заяви батьків.<b> Така оцінка не може проводитись примусово</b>.</blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sipQFxzNjT",
+          "_anchor": "content2-1d",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content2-1d"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12475,11 +12494,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>Для проведення комплексної оцінки, батькам або законним представникам  дітей з особливими освітніми потребами необхідно подати до центру наступний перелік документів:</b></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "sipR4DLLxD",
+          "_anchor": "content1-1f",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-1f"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12531,11 +12550,11 @@
           "_name": "content12",
           "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li>письмова заява батьків або законних представників дитини щодо проведення комплексної психолого-педагогічної оцінки розвитку дитини;\n</li><li>письмову згоду на обробку персональних даних дитини;\n</li><li>копії документів, що посвідчують особу батьків (одного з батьків) або законних представників;\n</li><li>копію свідоцтва про народження дитини;\n</li><li>копію індивідуальної програми реабілітації дитини з інвалідністю (у разі інвалідності);\n</li><li>форми первинної облікової документації № 112/0 “Історія розвитку дитини”, затвердженої МОЗ, у разі потреби - довідки від психіатра.\n</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sipQGGajwg",
+          "_anchor": "content12-1e",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content12-1e"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12550,11 +12569,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>У разі коли дитина з особливими освітніми потребами здобуває дошкільну або загальну середню освіту, до заяви можуть додаватися:</b></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "sipRwxKULU",
+          "_anchor": "content1-1g",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-1g"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12606,11 +12625,11 @@
           "_name": "content12",
           "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li>психолого-педагогічна характеристика дитини із зазначенням динаміки та якості засвоєння знань під час навчання, підготовлена відповідним педагогічним працівником та затверджена керівником відповідного закладу освіти;\n</li><li>зошити з рідної мови, математики, результати навчальних досягнень (для дітей, які здобувають загальну середню освіту), малюнки;\n</li><li>документи щодо додаткових обстежень дитини.\n</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sipRxTy76r",
+          "_anchor": "content12-1h",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content12-1h"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12625,11 +12644,11 @@
           "_name": "content2",
           "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><span style=\"font-style: normal;\">Наголошуємо, що в умовах карантину можливе дистанційне подання документів для проведення комплексної психолого-педагогічної оцінки розвитку дитини: <a href=\"https://ircenter.gov.ua/irc/parents/create/irc_id/85086\" target=\"_blank\">реєстрація</a>.</span></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sipRVL07R0",
+          "_anchor": "content2-1i",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content2-1i"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12644,11 +12663,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Комунальна установа «Інклюзивно-ресурсний центр Покровської міської ради Дніпропетровської області»  проводить комплексну оцінку не пізніше ніж протягом місяця з моменту подання письмової заяви батьків (30 днів) або законних представників дитини щодо проведення комплексної оцінки, а також надання письмової згоди на обробку персональних даних дитини.\n</p><p><b>Участь батьків (одного з батьків) або законних представників дитини у проведенні комплексної оцінки є обов’язковою.</b></p><p>Комплексна оцінка проводиться фахівцями інклюзивно-ресурсного центру індивідуально за такими напрямами:\n</p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "sipTiiL4bN",
+          "_anchor": "content1-1j",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-1j"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12700,11 +12719,11 @@
           "_name": "content12",
           "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li><b>оцінка фізичного розвитку дитини;\n</b></li><li><b>оцінка мовленнєвого розвитку дитини;\n</b></li><li><b>оцінка когнітивної сфери дитини;\n</b></li><li><b>оцінка емоційно-вольової сфери дитини;\n</b></li><li><b>оцінка освітньої діяльності.\n</b></li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sipTjhXX2i",
+          "_anchor": "content12-1k",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content12-1k"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12719,11 +12738,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>У разі потреби фахівці інклюзивно-ресурсного центру можуть проводити комплексну оцінку за іншими напрямами, зокрема визначення рівня соціальної адаптації, взаємовідносин з однолітками, дорослими.\n</p><p>Результати комплексної оцінки оформлюються в електронному вигляді, зберігаються в інклюзивно-ресурсному центрі та надаються батькам (одному з батьків) або законним представникам дитини за письмовим зверненням.\n</p><p>Інформація про результати комплексної оцінки є конфіденційною. Обробка та захист персональних даних дітей в інклюзивно-ресурсному центрі здійснюється відповідно до вимог <a href=\"http://zakon.rada.gov.ua/laws/show/2297-17\" target=\"_blank\">Закону України “Про захист персональних даних”</a>.\n</p><p>Узагальнення результатів комплексної оцінки здійснюється на засіданні фахівців інклюзивно-ресурсного центру, які її проводили, в якому мають право брати участь батьки (один з батьків) або законні представники дитини з особливими освітніми потребами.\n</p><p>За результатами засідання складається висновок про комплексну оцінку, в якому зазначаються загальні дані про дитину з особливими освітніми потребами, її сім’ю (батьків (одного з батьків) або законних представників, братів, сестер), умови виховання в сім’ї, стан здоров’я дитини, заклад освіти, де навчається дитина, напрями проведення комплексної оцінки, загальні висновки, рекомендації, прізвище, ім’я, по батькові фахівців інклюзивно-ресурсного центру, які проводили оцінку.\n</p><p>Підготовка відповідного висновку проводиться протягом 10 робочих днів.\n</p><p>Висновок про комплексну оцінку надається батькам (одному з батьків) або законним представникам дитини з особливими освітніми потребами, за заявою яких (якого) її проведено, у двох примірниках, один з яких подається батьками (законними представниками) дитини до закладу освіти.\n</p><p>Висновок про комплексну оцінку реєструється у відповідному журналі та зберігається в електронному вигляді в інклюзивно-ресурсному центрі.\n</p><p>У разі встановлення фахівцями інклюзивно-ресурсного центру наявності у дитини особливих освітніх потреб висновок про комплексну оцінку є підставою для складення для неї індивідуальної програми розвитку та надання їй психолого-педагогічних та корекційно-розвиткових послуг.\n</p><p>Звертаємо увагу, що висновок лікарсько-консультативної комісії (ЛКК) закладу охорони здоров’я не може бути підставою для організації інклюзивного навчання для дитини з особливими освітніми потребами. Довідка ЛКК актуальна в тому випадку, якщо дитина потребує індивідуальну форму навчання(педагогічний патронаж).\n</p><p>Також наголошуємо, що діти які в минулому році діагностувалися в ІРЦ та мають висновок про комплексну оцінку, без змін в поставленому діагнозі та без встановленої дати щодо повторного діагностування, повторної комплексної оцінки не потребують.</p><p>\n</p><p><b>Термін дії висновку ІРЦ необмежений у часі, крім випадків, коли рекомендовано та визначено дату повторного вивчення</b>.\n&nbsp;<span style=\"font-size: 1rem;\"><b>Повторна комплексна оцінка проводиться у разі:</b>&nbsp;</span></p><p><b><br></b></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "sipTOx1Hz6",
+          "_anchor": "content1-1l",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-1l"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12775,11 +12794,11 @@
           "_name": "content12",
           "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li>переведення дитини з особливими освітніми потребами до інклюзивної (спеціальної) групи закладу дошкільної освіти або інклюзивного (спеціального) класу закладу загальної середньої освіти;\n</li><li>покращення або погіршення стану здоров’я дитини з особливими освітніми потребами, труднощів у засвоєнні навчальної програми.\n</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sipYhK637K",
+          "_anchor": "content12-1m",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content12-1m"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12794,11 +12813,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Висновок про комплексну оцінку має рекомендаційний характер і не є підставою для скерування органом управління освітою дитини з особливими освітніми потребами до певного закладу освіти, зокрема до спеціальної школи чи навчально-реабілітаційного центру.\n</p><p>Відповідно до статті 55 Закону України «Про освіту» (далі - Закон) право обирати заклад освіти, освітню програму, вид і форму здобуття дітьми освіти відповідного рівня мають батьки дитини. Згідно зі статтею 20 Закону у разі звернення особи з особливими освітніми потребами або її батьків до закладу освіти інклюзивна група або клас утворюється в обов’язковому порядку. \n</p><p><b>До уваги керівників ЗЗСО!\n</b></p><p>Згідно постанови КМУ від 21 жовтня 2020 р. № 983 «Про внесення змін до постанов Кабінету Міністрів України від 23 квітня 2003 р. № 585 і від 12 липня 2017 р. № 545», що визначає механізм подовження тривалості здобуття повної загальної середньої освіти учнями з особливими освітніми потребами, тривалість здобуття повної загальної середньої освіти особами з особливими освітніми потребами, які навчаються в інклюзивних класах, може бути продовжена на один рік на рівні початкової освіти та/або на один рік на рівні базової середньої освіти відповідно до індивідуальної освітньої траєкторії.\n</p><p>Потреба щодо продовження тривалості навчання визначається командою психолого-педагогічного супроводу не пізніше ніж за півроку до завершення навчання, про що зазначається в протоколі засідання, та є підставою звернення до інклюзивно-ресурсного центру для повторної комплексної оцінки розвитку дитини. На підставі висновку про повторну психолого-педагогічну оцінку розвитку дитини, виданого інклюзивно-ресурсним центром, та заяви одного з батьків (іншого законного представника) дитини, рішення про продовження тривалості навчання приймається педагогічною радою та вводиться в дію наказом керівника закладу освіти.             Дякуємо за співпрацю та розуміння!\n</p><p>Дякуємо за співпрацю та розуміння!\n</p><p>\n<span style=\"font-size: 1rem;\">Команда КУ «Покровський ІРЦ».</span></p><p><br></p><p><b><br></b></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "sipYOh7Rvh",
+          "_anchor": "content1-1n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-1n"
+          "_params": {}
         }
       ]
     }
