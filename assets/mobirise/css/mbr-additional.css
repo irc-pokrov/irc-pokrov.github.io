@@ -1092,6 +1092,94 @@ section.lazy-placeholder:after {
 .cid-rcHSr8yJtS .mbr-author-desc {
   color: #232;
 }
+.cid-t1IcdV6UM9 {
+  padding-top: 15px;
+  padding-bottom: 45px;
+  background-color: #f9f9f9;
+}
+.cid-t1IcdV6UM9 .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-t1IcdV6UM9 .container-table {
+  margin: 0 auto;
+}
+.cid-t1IcdV6UM9 .scroll {
+  overflow-x: auto;
+  padding: 0;
+}
+.cid-t1IcdV6UM9 .dataTables_wrapper {
+  display: block;
+}
+.cid-t1IcdV6UM9 .dataTables_wrapper .search {
+  margin-bottom: .5rem;
+}
+.cid-t1IcdV6UM9 .dataTables_wrapper .table {
+  overflow-x: auto;
+}
+.cid-t1IcdV6UM9 table {
+  width: 100% !important;
+  margin-top: 6px;
+  border: 1px solid #cccccc;
+  margin-bottom: 0;
+}
+.cid-t1IcdV6UM9 table th {
+  border-top: none;
+  transition: all .2s;
+  border-bottom: none;
+}
+.cid-t1IcdV6UM9 table th:hover {
+  background: #cccccc;
+  color: #000000;
+}
+.cid-t1IcdV6UM9 table td {
+  border-top: 1px solid #cccccc;
+}
+.cid-t1IcdV6UM9 table.table {
+  background: #ffffff;
+}
+.cid-t1IcdV6UM9 .dataTables_filter {
+  text-align: right;
+  margin-bottom: .5rem;
+}
+.cid-t1IcdV6UM9 .dataTables_filter label {
+  display: inline;
+  white-space: normal !important;
+}
+.cid-t1IcdV6UM9 .dataTables_filter input {
+  display: inline;
+  width: auto;
+  margin-left: .5rem;
+  border-radius: 100px;
+  padding-left: 1rem;
+}
+.cid-t1IcdV6UM9 .dataTables_info {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  white-space: normal !important;
+}
+@media (max-width: 992px) {
+  .cid-t1IcdV6UM9 .dataTables_filter {
+    text-align: center;
+  }
+}
+@media (max-width: 350px) {
+  .cid-t1IcdV6UM9 .dataTables_filter {
+    text-align: center;
+  }
+  .cid-t1IcdV6UM9 .dataTables_filter input {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+.cid-t1IdJ49vsx {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-t1IdJ49vsx .mbr-text,
+.cid-t1IdJ49vsx blockquote {
+  color: #767676;
+}
 .cid-rcHYQZkj7Q {
   padding-top: 30px;
   padding-bottom: 15px;
