@@ -3399,8 +3399,17 @@ section.lazy-placeholder:after {
 .cid-rcw5Bp9NUr .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-sYeT0c6KmF {
+.cid-veHOjVxK9X {
   padding-top: 120px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-veHOjVxK9X .mbr-text,
+.cid-veHOjVxK9X blockquote {
+  color: #767676;
+}
+.cid-sYeT0c6KmF {
+  padding-top: 30px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
@@ -3666,6 +3675,15 @@ section.lazy-placeholder:after {
 }
 .cid-sipxaylWS0 .mbr-text p {
   background: #ffffff;
+}
+.cid-veHOhRbdMi {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-veHOhRbdMi .mbr-text,
+.cid-veHOhRbdMi blockquote {
+  color: #767676;
 }
 .cid-rcvY0uAlbE .navbar {
   padding: .5rem 0;
