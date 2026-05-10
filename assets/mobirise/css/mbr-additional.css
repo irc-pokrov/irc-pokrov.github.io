@@ -3471,8 +3471,40 @@ section.lazy-placeholder:after {
 .cid-veHOjVxK9X blockquote {
   color: #767676;
 }
-.cid-sYeT0c6KmF {
+.cid-vjeN5Ls3Em {
   padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-vjeN5Ls3Em .mbr-text {
+  color: #767676;
+}
+.cid-vjeN5Ls3Em .mbr-text p {
+  background: #ffffff;
+}
+.cid-vjeNA74TCm {
+  background: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.cid-vjeNA74TCm .image-block {
+  margin: auto;
+}
+.cid-vjeNA74TCm figcaption {
+  position: relative;
+}
+.cid-vjeNA74TCm figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-vjeNA74TCm .image-block {
+    width: 100% !important;
+  }
+}
+.cid-sYeT0c6KmF {
+  padding-top: 45px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
